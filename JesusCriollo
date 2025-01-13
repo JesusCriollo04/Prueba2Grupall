@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenida</title>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    header h1 {
+      background: linear-gradient(to right, #FCD116, #0033A0, #EF4135); 
+      -webkit-background-clip: text; 
+      color: transparent; 
+      font-size: 2.5em; 
+      font-weight: bold; 
+    }
+    main {
+      padding: 20px;
+    }
+    .section-title {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+    .service {
+      text-align: center;
+      max-width: 250px;
+    }
+    .service img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .video-container {
+      text-align: center;
+    }
+    .video-container iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenidos "Al Nuevo Ecuador"</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2 class="section-title">Bienvenida</h2>
+      <p>Bienvenido esta es "La Diablada de Píllaro" es una celebración popular que ha crecido en la última década. Según cuenta la historia, en épocas coloniales los indígenas se disfrazaban de diablos en repudio a las prédicas sacerdotales y al maltrato físico, psicológico, económico y moral que recibían de los españoles.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Nuestro Objetivo</h2>
+      <p>Nosotros como objetivo nos hemos planteado que esta es una celebracion unica en nuestro pais que nos gustaria fomentar a los nuevos visitantes debido a la epoca del año y comentarles que es "La Diablada de Píllaro" es una celebración popular que ha crecido en la última década. Según cuenta la historia, en épocas coloniales los indígenas se disfrazaban de diablos en repudio a las prédicas sacerdotales y al maltrato físico, psicológico, económico y moral que recibían de los españoles.
+
+        Los diablos de Píllaro son los personajes populares de esta fiesta. Ellos visten atuendos especiales cuya confección es el resultado de mucho tiempo y esfuerzo. Sus máscaras son elaboradas artesanalmente, su base principal es un molde hecho en bloque de tierra a la que se le adhieren varias capas de papel cauché empapadas en engrudo, y que se la deja al sol para que adquiera dureza. Luego añaden cuernos y dientes de diferentes animales como cabras, venados, corderos, toros; se le da colorido en varias tonalidades sobresaliendo el negro y rojo.
+        
+        El atuendo está compuesto por un pantaloncillo rojo que va hasta la rodilla con flequillos dorados a los filos, la blusa o capa roja con filos bordados y flecos dorados. Las medias rojas ayudan a integrar a lo largo el color infernal y las zapatillas mantienen ágiles los pies.
+        
+        Estas festividades se realizan por las principales calles de la ciudad con un desfile lleno de baile y bandas de pueblo que recorren al son de sanjuanito, saltashpa, tonada y pasacalle. Cada comparsa representa su cultura y tradición acompañados de guarichas y capariches.</p>
+      
+      <div class="services">
+        <div class="service">
+          <img src="https://unsplash.com/es/fotos/una-cruz-de-oro-con-una-cabeza-de-leon-M2jqWvHjjEI" alt="Disfracez">
+          <h3 style="color: #FCD116;">El diablo del pillaro</h3>
+          <p>El "Diablo del Pillaro" es un personaje caracterizado por su máscara de madera, con cuernos, rostro feroz y trajes brillantes llenos de adornos.</p>
+        </div>
+        <div class="service">
+          <img src="https://unsplash.com/es/fotos/una-cruz-de-oro-con-una-cabeza-de-leon-M2jqWvHjjEI" alt="La cruz de la diabla">
+          <h3 style="color: #0033A0;">La "Cruz de la Diablada"</h3>
+          <p>La cruz es otro elemento simbólico que representa la lucha entre el bien y el mal. Se utiliza tanto en las danzas como en las ceremonias que acompañan la festividad. La cruz también tiene un fuerte componente religioso, vinculado a la tradición católica.</p>
+        </div>
+        <div class="service">
+          <img src="https://unsplash.com/es/fotos/un-grupo-de-personas-con-mascarillas-en-la-cara-BdGRGheoEfY" alt="bailes y danza">
+          <h3 style="color: #EF4135;">Bailes y Danzas</h3>
+          <p>Los participantes, llamados "diablos", realizan danzas tradicionales durante los desfiles. Estas danzas son una mezcla de movimientos enérgicos, saltos y coreografías que simulan una lucha entre el bien y el mal. Los bailes reflejan la mezcla de influencias indígenas, mestizas y coloniales de la región.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-container">
+      <h2 class="section-title">Mira nuestro video de presentación</h2>
+      <iframe src="https://youtu.be/HpUU0B7bfmk?si=WYBBgnamEDxBrD7N" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  </main>
+
+</body>
+</html>
